@@ -12,4 +12,11 @@ passFormV.textContent = "Conf";
 const formBtn = document.querySelector(".formBtn");
 formBtn.textContent = "Submit";
 
-emailForm.addEventListener("");
+emailForm.addEventListener("input", (event) => {
+  if (emailForm.validity.typeMismatch) {
+    emailForm.setCustomValidity("Email address invalid.");
+    emailForm.reportValidity();
+  } else {
+    emailForm.setCustomValidity("");
+  }
+});
