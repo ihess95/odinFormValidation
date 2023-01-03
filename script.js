@@ -12,8 +12,4 @@ passFormV.textContent = "Conf";
 const formBtn = document.querySelector(".formBtn");
 formBtn.textContent = "Submit";
 
-formDiv.appendChild(emailForm);
-formDiv.appendChild(countryForm);
-formDiv.appendChild(zipForm);
-formDiv.appendChild(passForm);
-formDiv.appendChild(passFormV);
+emailForm.addEventListener("");

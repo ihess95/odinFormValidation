@@ -1,0 +1,8 @@
+input:valid {
+  border: 1px solid green;
+}
+
+.emailForm:invalid {
+  border: 1px solid red;
+  background-color: #ff0000;
+}
