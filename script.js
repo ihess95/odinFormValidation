@@ -20,3 +20,7 @@ emailForm.addEventListener("input", (event) => {
     emailForm.setCustomValidity("");
   }
 });
+
+formBtn.addEventListener("click", (event) => {
+  console.log("test");
+});
